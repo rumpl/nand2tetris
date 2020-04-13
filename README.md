@@ -77,3 +77,21 @@ CHIP Xor {
     Or (a=aAndNotb, b=notaAndb, out=out);
 }
 ```
+
+Week 1 gates:
+
+* [x] Not
+* [x] And
+* [x] Or
+* [ ] Xor
+* [ ] Mux
+* [ ] DMux
+* [ ] Not16
+* [ ] And16
+* [ ] Or16
+* [ ] Mux16
+* [ ] Or8Way
+* [ ] Mux4Way16
+* [ ] Mux8Way16
+* [ ] DMux4Way
+* [ ] DMux8Way
