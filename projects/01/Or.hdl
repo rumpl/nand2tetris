@@ -9,10 +9,17 @@
  *       0 otherwise
  */
 
+// a or b =
+// not(not(a or b)) =
+// not((not(a) and not(b)) =
+// not(not(a * a) * not(b * b))
+
 CHIP Or {
     IN a, b;
     OUT out;
 
     PARTS:
-    // Put your code here:
+    Nand(a=a, b=a, out=aNanda);
+    Nand(a=b, b=b, out=bNandb);
+    Nand(a=aNanda, b=bNandb, out=out);
 }
