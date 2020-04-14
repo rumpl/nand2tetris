@@ -15,7 +15,7 @@ Boolean function synthesis is going from a truth table to a boolean function.
 Example :
 
 | x | y | z | f |
-| - | - | - | - |
+|---|---|---|---|
 | 0 | 0 | 0 | 1 |
 | 0 | 0 | 0 | 0 |
 | 0 | 1 | 0 | 1 |
@@ -38,7 +38,7 @@ f(x,y,z) = (not(x) and not(y) and not(z)) or (not(x) and y and not(z)) or (x and
 Thruth table:
 
 | x | y | nand |
-| - | - | ---- |
+|---|---|------|
 | 0 | 0 | 1    |
 | 0 | 1 | 1    |
 | 1 | 0 | 1    |
@@ -86,12 +86,12 @@ Week 1 gates:
 * [x] Xor
 * [x] Mux
 * [x] DMux
-* [ ] Not16
-* [ ] And16
-* [ ] Or16
-* [ ] Mux16
-* [ ] Or8Way
-* [ ] Mux4Way16
-* [ ] Mux8Way16
-* [ ] DMux4Way
-* [ ] DMux8Way
+* [x] Not16
+* [x] And16
+* [x] Or16
+* [x] Mux16
+* [x] Or8Way
+* [x] Mux4Way16
+* [x] Mux8Way16
+* [x] DMux4Way
+* [x] DMux8Way
