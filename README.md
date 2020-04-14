@@ -85,7 +85,7 @@ Week 1 gates:
 * [x] Or
 * [x] Xor
 * [x] Mux
-* [ ] DMux
+* [x] DMux
 * [ ] Not16
 * [ ] And16
 * [ ] Or16
